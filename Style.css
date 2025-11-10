@@ -1,0 +1,71 @@
+body{background-color: greenyellow;}
+
+.main-div{width: 45%;
+    height: 700px;
+    background-color: white;
+    margin: 0  auto;
+    margin-top: 100px;
+    position: relative;}
+
+.card{background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 85%;
+    z-index: 2;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    border-radius: 20px;
+    position: relative;
+    top: 70px;
+    left: -100px;
+    box-shadow: 0 0 3px rgb(0, 0, 0);}
+
+.Main-img{width: 100%;
+    height: 50%;
+    border-radius: 20px;}
+
+.cards{display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;}
+
+.card2{width: 60px;
+    height: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+    object-fit: cover;}
+
+.text_div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  height: auto;
+}
+
+.text_div > p {opacity: 0.2;
+    color: rgb(109, 108, 108);} 
+
+.text_div > h2 {color: red;
+   font-size: 56px;}
+
+.card3{width: 60px;
+    height: 60px;
+
+    object-fit: cover;}
+
+.btn{width: 250px;
+    height: 80px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;}
